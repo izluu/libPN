@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/QLPM"
+        android:title="Quản lý Phiếu Mượn"
+        android:icon="@drawable/home" />
+    <item android:id="@+id/QLSach"
+        android:title="Quản lý Sách"
+        android:icon="@drawable/book" />
+    <item android:id="@+id/QLLoaiSach"
+        android:title="Quản lý Loại Sách"
+        android:icon="@drawable/book" />
+
+    <group>
+        <item android:title="Member">
+            <item android:id="@+id/QLTV"
+                android:title="Quản lý thành viên"
+                android:icon="@drawable/member" />
+        </item>
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/doanhThu"
+                android:title="Thống Kê Doanh Thu"
+                android:icon="@drawable/ic_top10"/>
+            <item android:id="@+id/top10"
+                android:title="Thống kê top 10"
+                android:icon="@drawable/ic_dt"/>
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/doiMatKhau"
+                android:title="Đổi Mật Khẩu"
+                android:icon="@drawable/change_password" />
+            <item android:id="@+id/AddThuThu"
+                android:title="Thêm Thủ Thư"
+                android:icon="@drawable/add" />
+            <item android:id="@+id/Logout"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+
+
+</menu>
